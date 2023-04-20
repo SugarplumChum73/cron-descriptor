@@ -1,0 +1,5 @@
+project: cron-descriptor
+target: get_descriptor
+cmds:
+  - cmd: /src/mayhem/fuzz_get_description.py
+    libfuzzer: true
